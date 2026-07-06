@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*DEAD* %s1: %s2"
-"Chat_All_Spec"			"*SPEC* %s1 : %s2"
+"Chat_All_Spec"			"*SPEC* %s1: %s2"
 "Chat_Team"				"(TEAM) %s1: %s2"
 "Chat_Team_Loc"			"(TEAM) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(TEAM) *DEAD* %s1: %s2"
 "Chat_Team_Spec"		"(TEAM) *SPEC* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*DEAD* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*SPEC* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(TEAM) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(TEAM) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(TEAM) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(TEAM) *DEAD* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(TEAM) *DEAD* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(TEAM) *SPEC* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOICE) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 has joined the game"
+"TF_Left_Game"					"%s1 left the game (%s2)"
+"TF_Joined_Team"				"%s1 joined team %s2"
+"TF_Name_Change"				"* %s1 changed name to %s2"
+
+"TF_Team_Balanced"				"%s1 has been moved to team %s2"
+"TF_Autobalance_TeamChangeDone"	"You have been moved to team %s1"
+
+"TF_VIP_Assigned"				"%s1 is now the VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Voice Commands"
@@ -46,6 +59,9 @@
 "TF_vote_change_civilian"			"Choose player %s1 to be the VIP?"
 "TF_vote_change_civilian_caller"	"Player %s1 wants to be the VIP."
 "TF_vote_passed_change_civilian"	"The VIP will be player: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Volume:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -65,17 +81,6 @@
 // Autobalance
 "TF_teamswitch_green"				"You are now on GRN!"
 "TF_teamswitch_yellow"				"You are now on YLW!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 has been moved to team %s2"
-"TF_Autobalance_TeamChangeDone"		"You have been moved to team %s1"
-"TF_Name_Change"					"* %s1 changed name to %s2"
-"TF_Joined_Game"					"%s1 has joined the game"
-"TF_Left_Game"						"%s1 left the game (%s2)"
-"TF_Joined_Team"					"%s1 joined team %s2"
-"TF_Joined_AutoTeam" 				"%s1 was automatically assigned to team %s2"
-"TF_AutoBalanced"					"%s1 was moved to team %s2 for game balance"
-"TF_AutoBalance_Warning"			"Team imbalance detected"
 
 // ----------------------------------------------------------------
 // Classes
@@ -128,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"Level %s1  -  Upgrading..."
 "TF_playerid_object_building"			"Building..."
 "TF_playerid_object_building_level"		"Level %s1  -  Building..."
+"TF_playerid_object_tranq"				" (SABOTAGED)"
 "TF_playerid_teleporter_no_entrance"	"  -  No Teleporter Entrance"
 "TF_playerid_teleporter_no_exit"		"  -  No Teleporter Exit"
 "TF_playerid_object_recharging"			"  -  Recharging: %s1%"
@@ -634,6 +640,7 @@
 "TF_Meter_Harvest"	"HARVEST"
 "TF_Meter_LunchBox"	"LUNCHBOX"
 "TF_Meter_Therapy"	"THERAPY"
+"TF_Meter_Tranq"	"SEDATIVE"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -681,7 +688,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"On Wearer: Take crits from melee damage"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% faster move speed while cloaked"
 "Attrib_LoseCloakOnDamage"							"-%s1% cloak when damaged under cloak"
-"Attrib_TranqOnHit"									"On Hit: Color blind victim and slow their weapon and movement speed for %s1s"
+"Attrib_TranqOnHit"									"On Hit: Color blind victim and slow their weapon and movement speed for %s1s\nTranquilized enemies take guaranteed crits from melee attacks"
+"Attrib_CloakRegenDisabled"							"No passive cloak regeneration"
 "Attrib_FishwhackerSweep"							"Deals knockback to nearby enemies"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Self-Knockback is affected by damage boost"
 "Attrib_ApplySelfKnockbackSwing"					"Applies reverse self-knockback on a swing"
@@ -774,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Jump Pads cannot be upgraded"
 "Attrib_AltFire_HasteBoost"							"Alt-Fire: Give haste boost to a teammate"
 "Attrib_AltFire_UberBubble"							"Alt-Fire: Launch a device that grants invulnerability in a radius"
+"Attrib_StickyIsLandmine"							"Fires Landmines"
+"Attrib_AutoJumping"								"Wearer can automatically jump by holding the jump button"
+"Attrib_SpreadScalesSpeed"							"Up to %s1% more accurate based on current speed"
+"Attrib_DuckJumping"								"Wearer can jump while crouching"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -784,10 +796,10 @@
 "Amaranth_cap_B"	"RED's Shipping Facility"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"cap A, the Warehouse"
+"Hydro_dom_cap_radar_dish"	"cap B, the Radar Dish"
+"Hydro_dom_cap_power_plant"	"cap C, the Power Plant"
+"Hydro_dom_cap_dam"			"cap D, the Dam"
 
 // vip_mineside
 "vip_mineside_description"	"Objective:
@@ -924,6 +936,9 @@ Honorable hand to sword combat only!"
 // Gamemode strings
 // ----------------------------------------------------------------
 
+// CTF
+"TF_CTF_TeamCannotCapture"	"Your team cannot capture this flag!"
+
 // Domination
 "default_dom_description"	"Objective:
 To win, each team must capture and hold Control Points to gain points. The more Control Points you own, the faster you gain points.
@@ -945,7 +960,6 @@ BLU team can freeze the capture progress of a Control Point if the VIP isn't pre
 "vip_setup_goal_offense"	"Escort the VIP to the Escape Zone."
 "vip_setup_goal_defense"	"Kill the enemy team's VIP to prevent him from reaching the Escape Zone."
 
-"TF_VIP_Assigned"				"%s1 is now the VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team!"
 "TF_VIP_Tutorial_Annotation_3"	"But remember, his life is more important than yours, so don't let him die!"
 
@@ -1146,9 +1160,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Quit"				"Quit"
 "TF_Menu_Disconnect"		"Disconnect"
 
-"TF_Menu_Blog"				"Official Blog"
-"TF_Menu_LatestUpdate"		"Latest Update"
+"TF_Menu_Blog"				"Website"
 "TF_Menu_ReportBug"			"Report a Bug"
+"TF_Menu_Donate"			"Donate"
 
 "TF_Friends_Title"					"Friends (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Playing TF2C"
@@ -1318,15 +1332,15 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_BurningDeathAnim"				"Enable burning death animations"
 "TF_BurningDeathAnim_Tip"			"If set, ragdolls will have a chance to play a special death animation when dying from fire"
 "TF_CombatTextBatchingWindow"		"Delay between accumulated combat text damage events"
-"TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers."
+"TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers"
 "TF_CombatTextDropShadow"           "Display combat text with drop shadow"
-"TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
+"TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text"
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
-"TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire."
+"TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire"
 "TF_SapperAwareness"                "ENGINEER: Sapper awareness"
-"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color."
+"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color"
 "TF_SniperBell"					    "SNIPER: Play Sound on Full Charge"
 "TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged"
 "TF_ZoomSensitivityRatio"			"SNIPER: Zoom sensitivity ratio"
@@ -1404,6 +1418,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
 
 // Video
+"TF2c_Option_ClassicShading"		"Classic shading"
+"TF2c_Option_ClassicShading_Tip"	"If set, enables full-lambertian shading for player materials"
 "TF2c_Option_BloomScale"			"Bloom scale"
 "TF2c_Option_FramerateLimit"		"Framerate Limit"
 

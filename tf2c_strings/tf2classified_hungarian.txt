@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"			    "%s1: %s2"
 "Chat_All_Dead"		    "*HALOTT* %s1: %s2"
-"Chat_All_Spec"		    "*NÉZŐ* %s1 : %s2"
+"Chat_All_Spec"		    "*NÉZŐ* %s1: %s2"
 "Chat_Team"			    "(CSAPAT) %s1: %s2"
 "Chat_Team_Loc"		    "(CSAPAT) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(CSAPAT) *HALOTT* %s1: %s2"
 "Chat_Team_Spec"		"(CSAPAT) *NÉZŐ* %s1: %s2"
+
 "Chat_All_Dev"		    "[FEJL] %s1: %s2"
 "Chat_All_Dev_Dead"	    "*HALOTT* [FEJL] %s1: %s2"
 "Chat_All_Dev_Spec"	    "*NÉZŐ* [FEJL] %s1: %s2"
-"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
+"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
 "Chat_Team_Dev_Loc"	    "(CSAPAT) [FEJL] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(CSAPAT) *NÉZŐ* [FEJL] %s1: %s2"
+
 "Chat_Voice"			"(HANG) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 belépett a játékba"
+"TF_Left_Game"					"%s1 elhagyta a játékot (%s2)"
+"TF_Joined_Team"				"%s1 belépett a %s2 csapatba"
+"TF_Name_Change"				"* %s1 neve mostantól %s2"
+
+"TF_Team_Balanced"				"%s1 áthelyezve a %s2 csapatba"
+"TF_Autobalance_TeamChangeDone"	"Áthelyeztek a %s1 csapatba"
+
+"TF_VIP_Assigned"				"%s1 mostantól a VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Hangparancsok"
@@ -46,6 +59,9 @@
 "TF_vote_change_civilian"			"Legyen ez a játékos a VIP: %s1?"
 "TF_vote_change_civilian_caller"	"Ez a játékos akar lenni a VIP: %s1."
 "TF_vote_passed_change_civilian"	"A VIP ez a játékos lesz: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Hangerő:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -65,17 +81,6 @@
 // Autobalance
 "TF_teamswitch_green"		    	"Mostantól GRN vagy!"
 "TF_teamswitch_yellow"		    	"Mostantól YLW vagy!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 áthelyezve a %s2 csapatba"
-"TF_Autobalance_TeamChangeDone"		"Áthelyeztek a %s1 csapatba"
-"TF_Name_Change"					"* %s1 neve mostantól %s2"
-"TF_Joined_Game"					"%s1 belépett a játékba"
-"TF_Left_Game"						"%s1 elhagyta a játékot (%s2)"
-"TF_Joined_Team"					"%s1 belépett a %s2 csapatba"
-"TF_Joined_AutoTeam" 				"%s1 a %s2 csapatba került"
-"TF_AutoBalanced"					"%s1 a %s2 csapatba került erőkiegyenlítés miatt"
-"TF_AutoBalance_Warning"			"Csapaterő-különbség észlelve"
 
 // ----------------------------------------------------------------
 // Classes
@@ -128,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"%s1. szint  -  Fejlesztés..."
 "TF_playerid_object_building"			"Épül..."
 "TF_playerid_object_building_level"		"%s1. szint  -  Épül..."
+"TF_playerid_object_tranq"				" (SZABOTÁLVA)"
 "TF_playerid_teleporter_no_entrance"	"  -  Nincs Teleport bejárat"
 "TF_playerid_teleporter_no_exit"		"  -  Nincs Teleport kijárat"
 "TF_playerid_object_recharging"			"  -  Újratöltés: %s1%"
@@ -634,6 +640,7 @@
 "TF_Meter_Harvest"	"SZÜRET"
 "TF_Meter_LunchBox"	"UZSONNA"
 "TF_Meter_Therapy"	"TERÁPIA"
+"TF_Meter_Tranq"	"ALTATÓ"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -681,7 +688,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Krit elszenvedése közelharci sebzésből a viselőn"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1%-kal gyorsabb mozgási sebesség álcázva"
 "Attrib_LoseCloakOnDamage"							"-%s1% álca mikor álca alatt sebeznek"
-"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig"
+"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig\nAz elkábult ellenfelek garantált kritikus találatokat szenvednek közelharci támadásokból"
+"Attrib_CloakRegenDisabled"							"Nincs passzív álca töltés"
 "Attrib_FishwhackerSweep"							"A közeli ellenfelek visszalökődnek"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
 "Attrib_ApplySelfKnockbackSwing"					"Visszafele ható ön-visszalökés hintázáskor"
@@ -774,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Az ugratókat nem lehet fejleszetni"
 "Attrib_AltFire_HasteBoost"							"Alternatív tűz: csapattársak felgyorsítása"
 "Attrib_AltFire_UberBubble"							"Alternatív tűz: eszköz kilövése, amely sérhetetlenséget ad egy burokban"
+"Attrib_StickyIsLandmine"							"Aknákat lő"
+"Attrib_AutoJumping"								"A viselő automatikusan ugrik, ha a ugrás gombot lenyomva tartja"
+"Attrib_SpreadScalesSpeed"							"Akár %s1%-kal pontosabb az aktuális sebesség alapján"
+"Attrib_DuckJumping"								"A viselő guggolva tud ugrani"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -924,6 +936,9 @@ Csak dicsőséges kézitusa és kardvívás!"
 // Gamemode strings
 // ----------------------------------------------------------------
 
+// CTF
+"TF_CTF_TeamCannotCapture"	"A csapatod nem tudja elfoglalni ezt a zászlót!"
+
 // Domination
 "default_dom_description"	"Feladat:
 A győzelemhez az egyik csapatnak el kell foglalnia, majd fenntartania az ellenőrzőpontjait, hogy ponthoz jussanak. Minél több ellenőrzőpontot foglalsz el, annál gyorsabban kapsz pontokat.
@@ -945,7 +960,6 @@ A BLU csapat meg tudja állítani a foglalás állapotát ha nincs jelen a VIP."
 "vip_setup_goal_offense"	"Kísérd el a VIP-t a menekülőzónához."
 "vip_setup_goal_defense"	"Öld meg az ellenséges csapat VIP-ját, hogy megakadályozd a menekülőzóna elérésében."
 
-"TF_VIP_Assigned"				"%s1 mostantól a VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Védő erősítést biztosít a hozzá közel levő játékosoknak és\nideiglenes erősítést tud adni az egyik csapattársának!"
 "TF_VIP_Tutorial_Annotation_3"	"De tartsd észben azt, hogy az ő élete fontosabb mint a tiéd, szóval ne hagyd meghalni!"
 
@@ -1146,9 +1160,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Menu_Quit"				"Kilépés"
 "TF_Menu_Disconnect"		"Szétkapcsolás"
 
-"TF_Menu_Blog"				"TF2C blog"
-"TF_Menu_LatestUpdate"		"Frissítések"
+"TF_Menu_Blog"				"Weboldal"
 "TF_Menu_ReportBug"			"Hibajelentés"
+"TF_Menu_Donate"			"Adomány"
 
 "TF_Friends_Title"					"Barátok (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2C-vel játszik"
@@ -1404,6 +1418,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Network_Rate_Tip"       		"Hálózatfrissítés mértékének beállítása, amely ellentétesen állítja be a hálózati interpolációt.\n\nAjánlott minden beállítást kipróbálni, hogy meglásd melyik érződik a legjobbnak a saját hálózatodon."
 
 // Video
+"TF2c_Option_ClassicShading"		"Klasszikus árnyékolás"
+"TF2c_Option_ClassicShading_Tip"	"Ha be van kapcsolva, teljes-lamberti árnyékolást fog használni a játékostextúrákon."
 "TF2c_Option_BloomScale"	        "HDR ragyogás mértéke"
 "TF2c_Option_FramerateLimit"		"Képfrissítés limit"
 
@@ -1479,11 +1495,11 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"Kilapító kombó"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Ölj meg legalább 3 ellenfelet egyetlen Küklöpsz kombó robbantással."
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"Lefegyverzés"
-"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Gépágyúsként aktiválj egy ellenséges Aknát ami legalább 5 mp-je lett lerakva, anélkül, hogy közel mennél hozzá."
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Gépágyúsként aktiválj egy 5 másodperce telepített Aknát, anélkül, hogy közel mennél hozzá."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, ööö..."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"Ölj meg egy ellenfelet egy rosszul beütött élesítőkóddal."
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Az önkontroll elve"
-"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"A Légvédelmi Ágyút használva, okozz 2000 sebzést, egyetlen életben anélkül, hogy sebeznéd magad."
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"A Légvédelmi Ágyút használva, okozz 2000 sebzést egyetlen életben anélkül, hogy sebeznéd magad."
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Felkészítés, végeredmény"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Ölj meg valakit egy krittel a Csehov Taslijával úgy, hogy a maximum krittartalékod van."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Végsebesség"
@@ -1495,7 +1511,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Légpangás"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Lőj fejbe egy ellenfelet miközben a levegőben van."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Vadászd le a franciát"
-"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Fedj fel egy láthatatlan L'escampette-es Kémet."
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Fedj fel egy láthatatlan Kémet akinél a L'escampette van."
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"A vállalkozó"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Nyerj meg egy VIP kört Civilként anélkül, hogy meghalnál."
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"A játékban az idő a tét"
@@ -1601,5 +1617,43 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_ResetStats"				            "&NULLÁZÁS" // RETRANSLATION, to avoid truncation
 
 "TF_GameModeDesc_Koth"			"Egy csapatnak addig kell birtokolnia a pontot, míg az idő le nem telik."
+
+//STATS PANEL GRAMMAR FIXES
+
+"StatPanel_Kills_Best"				    "Ebben a körben %s1ként többet öltél, mint a korábbi legjobb eredményed."
+"StatPanel_Captures_Best"			    "Ebben a körben %s1ként többször foglaltál, mint a korábbi legjobb eredményed."
+"StatPanel_Defenses_Best"			    "Ebben a körben %s1ként több pontot védtél meg, mint a korábbi legjobb eredményed."
+"StatPanel_DamageDealt_Best"		    "%s1ként többet sebeztél, mint a korábbi legjobb eredményed."
+"StatPanel_PlayTime_Best"			    "Ebben a körben %s1ként tovább maradtál életben, mint a korábbi legjobb eredményed."
+"StatPanel_Healing_Best"			    "Ebben a körben %s1ként többet gyógyítottál, mint a korábbi legjobb eredményed."
+"StatPanel_KillAssists_Best"		    "Ebben a körben %s1ként több ölésnél segítettél, mint a korábbi legjobb eredményed."
+"StatPanel_BuildingsDestroyed_Best"	    "Ebben a körben %s1ként több építményt tettél tönkre, mint a korábbi legjobb eredményed."
+"StatPanel_Dominations_Best"		    "Ebben a körben %s1ként több új ellenfelet aláztál, mint a korábbi legjobb eredményed."
+"StatPanel_Revenge_Best"			    "Ebben a körben %s1ként több ellenfélen álltál bosszút, mint a korábbi legjobb eredményed."
+"StatPanel_PointsScored_Best"		    "Ebben a körben %s1ként több pontot gyűjtöttél, mint a korábbi legjobb eredményed."
+
+"StatPanel_Kills_Tie"				    "Ebben a körben %s1ként ugyanannyit öltél, mint a rekordod."
+"StatPanel_Captures_Tie"			    "Ebben a körben %s1ként ugyanannyiszor foglaltál, mint a rekordod."
+"StatPanel_Defenses_Tie"			    "Ebben a körben %s1ként ugyanannyi védésed volt, mint a rekordod."
+"StatPanel_DamageDealt_Tie"			    "Ebben a körben %s1ként ugyanannyit sebeztél, mint a rekordod."
+"StatPanel_PlayTime_Tie"			    "Ebben a körben %s1ként ugyanaddig voltál életben, mint a rekordod."
+"StatPanel_Healing_Tie"				    "Ebben a körben %s1ként ugyanannyit gyógyítottál, mint a rekordod."
+"StatPanel_KillAssists_Tie"			    "Ebben a körben %s1ként ugyanannyi ölésnél segítettél, mint a rekordod."
+"StatPanel_BuildingsDestroyed_Tie"	    "Ebben a körben %s1ként ugyanannyi építményt tettél tönkre, mint a rekordod."
+"StatPanel_Dominations_Tie"			    "Ebben a körben %s1ként ugyanannyi ellenfelet aláztál, mint a rekordod."
+"StatPanel_Revenge_Tie"				    "Ebben a körben %s1ként ugyanannyiszor álltál bosszút, mint a rekordod."
+"StatPanel_PointsScored_Tie"		    "Ebben a körben %s1ként ugyanannyi pontot szereztél, mint a rekordod."
+
+"StatPanel_Kills_Close"				    "Ebben a körben %s1ként majdnem annyit öltél, mint a rekordod."
+"StatPanel_Captures_Close"			    "Ebben a körben %s1ként majdnem annyiszor foglaltál, mint a rekordod."
+"StatPanel_Defenses_Close"			    "Ebben a körben %s1ként majdnem annyi védésed volt, mint a rekordod."
+"StatPanel_DamageDealt_Close"		    "Ebben a körben %s1ként majdnem annyit sebeztél, mint a rekordod."
+"StatPanel_PlayTime_Close"			    "Ebben a körben %s1ként majdnem addig voltál életben, mint a rekordod."
+"StatPanel_Healing_Close"			    "Ebben a körben %s1ként majdnem annyit gyógyítottál, mint a rekordod."
+"StatPanel_KillAssists_Close"		    "Ebben a körben %s1ként majdnem annyi ölésnél segítettél, mint a rekordod."
+"StatPanel_BuildingsDestroyed_Close"    "Ebben a körben %s1ként majdnem annyi építményt tettél tönkre, mint a rekordod."
+"StatPanel_Dominations_Close"		    "Ebben a körben %s1ként majdnem annyi ellenfelet aláztál, mint a rekordod."
+"StatPanel_Revenge_Close"			    "Ebben a körben %s1ként majdnem annyiszor álltál bosszút, mint a rekordod."
+"StatPanel_PointsScored_Close"		    "Ebben a körben %s1ként majdnem annyi pontot szereztél, mint a rekordod."
 }
 }
