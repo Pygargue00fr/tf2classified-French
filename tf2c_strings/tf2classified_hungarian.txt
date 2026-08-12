@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"Hangparancsok"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"A csapatok automatikusan újra lesznek osztva (Túl nagy a csapatok közötti pont különbség)"
+"TF_Scramble_NoCap"				"A csapatok automatikusan újra lesznek osztva (A játékcél nem haladt eleget ebben a körben)"
+"TF_Scramble_WinStreak"			"A csapatok automatikusan újra lesznek osztva (A %s1 csapat %s2 alkalommal nyert egyhuzamban)"
+"TF_Scramble_Manual_NextRound"	"A csapatok újraosztása manuálisan ütemezve lett a következő körre"
+"TF_Scramble_NextRound"			"A csapatok újraosztása ütemezve lett a következő körre"
+"TF_Scramble_Manual_Now"		"A csapatok manuálisan lesznek újraosztva"
+"TF_Scramble_Now"				"A csapatok újraosztásra kerülnek"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -203,7 +215,7 @@
 "Tip_1_5"		"Felderítőként a pisztolyod remek távoli ellenségek levadászására."
 "Tip_1_6"		"Felderítőként az ütőd kevesebbet sebez mint az átlag közelharci fegyver, de gyorsabban tudsz vele ütni."
 // Death & Taxes
-"Tip_1_7"		"Felderítőként a Tűpisztollyal hatékonyan le tudod faragni az ellenfeled életerejét, még akár távolról is. Tartsd magad mozgásban és íveld a lövéseidet."
+"Tip_1_7"		"Felderítőként a Tűpisztollyal hatékonyan le tudod faragni az ellenfeled életerejét, akár távolról is. Tartsd magad mozgásban és íveld a lövéseidet."
 "Tip_1_8"		"Felderítőként az Őrtornyok ledarálása könnyebb a Tűpisztollyal. Használd akkor, ha egy sűrű Őrtorony-fészekkel van dolgod."
 // Fight or Flight
 "Tip_1_9"		"Felderítőként a Tégla megbízhatóan sebez és nagymértékű visszalökést okoz. Törd be a koponyáikat!"
@@ -222,14 +234,14 @@
 // Death & Taxes
 "Tip_2_7"		"Mesterlövészként a Levadászt megbízható közelharcra is használhatod, a pontosság árán."
 "Tip_2_8"		"Mesterlövészként a Levadász lövése általában célt fog téveszteni, ha öt másodpercnél tovább tartod felhúzva. Engedd le a(z) %attack2% megnyomásával."
-"Tip_2_9"		"Mesterlövészként a Vadászrevolver remek választás közép-távolságra. Használd az ellenfeleid sebzésére miközben gyorsan ki- és belépsz a frontvonalakra."
+"Tip_2_9"		"Mesterlövészként a Vadászrevolver remek választás közép-távolságra. Használd az ellenfeleid sebzésére miközben gyorsan ki- és belépsz a frontvonalra."
 "Tip_2_10"		"Mesterlövészként sokkal gyorsabban mozogsz, ha rá vagy közelítve a Vadászrevolverrel, mint a többi elsődleges fegyvereddel."
 "Tip_2_11"		"Mesterlövészként a Halcsapó találatkor visszalöki az ellenfeleid csoportjait és vérzést okoz nekik. Tartsd távol ezzel az illetéktelen behatolókat."
 
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_3_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek a szükségeidről."
 "Tip_3_2"		"Katonaként nagy magasságokba, vagy távolságokra rakétaugorhatsz úgy, hogy egyszerre ugrasz és lősz ki egy rakétát egy közeli felület felé."
 "Tip_3_3"		"Katonaként guggolj le, amikor rakétaugrásra készülsz, hogy maximális ugrási magasságot érj el."
 "Tip_3_4"		"Katonaként célozz a rakétákkal az ellenség lába elé, ezzel biztosítva, hogy ne tudják elkerülni a robbanás sebzését."
@@ -293,7 +305,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_6_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek a szükségeidről."
 "Tip_6_2"		"Gépágyúsként több életerőd van, mint bármely más osztálynak a csapatodban. Vállald bátran a nagy támadások vezetését!"
 "Tip_6_3"		"Gépágyúsként sokkal lassabb vagy mint a többi osztály. Gondolj erre mielőtt hadba szállnál mozgékonyabb ellenfelekkel."
 "Tip_6_4"		"Gépágyúsként a Szanitécek remek társa vagy. Maradj mindig a Szanitéced látómezőjében, hogy rajtad tarthassa a gyógypuskáját."
@@ -673,12 +685,12 @@
 "Attrib_TakeProjectileCritsAirborne"				"Krit elszenvedése a lövedékektől a levegőben a viselőn"
 "Attrib_Gravity_Active_Increased"					"+%s1% gravitáció amikor aktív"
 "Attrib_TeleporterJumpPad"							"Kicseréli a Teleport ki- és bejáratokat Ugratókra"
-"Attrib_Mod_Horizontal_Spread"						"Széles, vízszintes szóródása van"
-"Attrib_ApplySelfKnockback"							"Visszafele ható ön-visszalökés tüzeléskor"
+"Attrib_Mod_Horizontal_Spread"						"A töltényeknek széles vízszintes szóródása van"
+"Attrib_ApplySelfKnockback"							"Lövéskor hátralöki a használóját"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% visszalökés az ellenfélen"
 "Attrib_LifestealCrit"								"Találatkor: életerő elszívása a célponttól amíg a mérce tele van"
-"Attrib_FlatHealOnAfterburn_Active"					"+%s1 életerő nyereség utánégés-tickenként amikor aktív"
-"Attrib_RememberTargetsRemainingAfterburn"			"Követi a maradék utánégést a halott célpontokról"
+"Attrib_FlatHealOnAfterburn_Active"					"+%s1 életerő nyereség továbbégés sebzésütemenként amikor aktív"
+"Attrib_RememberTargetsRemainingAfterburn"			"Követi az elesett célpontokon hátralévő továbbégést"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Halálkor: az általad felgyújtott ellenségek eloltódnak"
 "Attrib_Explosive_Bullets"							"Robbanótöltetet lő"
 "Attrib_CannotUseStoredCrits"						"A fegyver nem használhat raktározott kriteket"
@@ -692,7 +704,7 @@
 "Attrib_CloakRegenDisabled"							"Nincs passzív álca töltés"
 "Attrib_FishwhackerSweep"							"A közeli ellenfelek visszalökődnek"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
-"Attrib_ApplySelfKnockbackSwing"					"Visszafele ható ön-visszalökés hintázáskor"
+"Attrib_ApplySelfKnockbackSwing"					"Ütéskor hátralöki a használóját"
 "Attrib_AirblastSelfKnockback"						"A léglöket visszalöki a használót"
 "Attrib_ProximityMine"								"A távaknák felrobbannak közeli ellenfeleknél"
 "Attrib_AltFire_FizzleMines"						"Alternatív tűz: távaknák elporlasztása"
@@ -750,12 +762,12 @@
 "Attrib_HealingReceivedActivePenalty"				"%s1% életerő a gyógyítóktól amikor aktív"
 "Attrib_HealthFromPacks_Active_Increased"			"+%s1% életerő mentőládákból amikor aktív"
 "Attrib_HealthFromPacks_Active_Decreased"			"%s1% életerő mentőládákból amikor aktív"
-"Attrib_DamageDelaysRegeneration"					"A sebzés elszenvedése késlelteti az életerő regenerálódását %s1 mp-vel"
+"Attrib_DamageDelaysRegeneration"					"A sebződés %s1 másodperccel késlelteti az életerő-regenerációt"
 "Attrib_DestroyGrenadesDetonateOwn"					"A robbanás elpusztítja az ellenséges gránátokat és élesíti a sajátjaid"
 "Attrib_HoldFirePreventDetonation"					"Tűzgomb nyomva tartása: gránát élesítés megakadályozása"
 "Attrib_MiniCritAirborneEnemies"			        "Mini-kritek a légi célpontokra"
-"Attrib_CritAirborneEnemies"						"Kritikus sebzés a légi célpontokra"
-"Attrib_ModCritAirborneDirectHitOnly"				"Kritikus sebzés a légi célpontokra csak telitalálatkor"
+"Attrib_CritAirborneEnemies"						"Kritikus sebzés a légi célpontokon"
+"Attrib_ModCritAirborneDirectHitOnly"				"Kritikus sebzés a légi célpontokon telitalálatkor"
 "Attrib_ObjectivesGiveCrits"						"Kritet okoz azoknak az ellenfeleknek, akik épp elfoglalják, megvédik vagy viszik a játékcélt"
 "Attrib_AddAmmoOnDirectHit"							"Telitalálatkor: %s1 lőszer visszanyerése"
 "Attrib_AddAmmoOnDirectHitKill"						"Telitalálati öléskor: %s1 lőszer visszanyerése"
@@ -783,7 +795,7 @@
 "Attrib_AltFire_HasteBoost"							"Alternatív tűz: csapattársak felgyorsítása"
 "Attrib_AltFire_UberBubble"							"Alternatív tűz: eszköz kilövése, amely sérhetetlenséget ad egy burokban"
 "Attrib_StickyIsLandmine"							"Aknákat lő"
-"Attrib_AutoJumping"								"A viselő automatikusan ugrik, ha a ugrás gombot lenyomva tartja"
+"Attrib_AutoJumping"								"A viselő automatikusan ugrik, ha az ugrás gombot lenyomva tartja"
 "Attrib_SpreadScalesSpeed"							"Akár %s1%-kal pontosabb az aktuális sebesség alapján"
 "Attrib_DuckJumping"								"A viselő guggolva tud ugrani"
 
@@ -1071,6 +1083,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // Scoreboard
 // ----------------------------------------------------------------
 
+"TF_ScoreBoard_NextLevel"			"Következő pálya: %s1"
+
 "TF_ScoreBoard_Player"				"%s1 játékos"
 "TF_ScoreBoard_Players"				"%s1 játékos"
 
@@ -1125,10 +1139,10 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "Winpanel_GreenMVPs"		"A GRN csapat legjobbjai:"
 "Winpanel_YellowMVPs"		"A YLW csapat legjobbjai:"
 
-"Winreason_KOTHPointHeld"		"%s1 sikeresen védte az ellenőrzőpontját az idő lejártáig"
-"Winreason_PayloadPushed"		"%s1 eltolta a bombát az utolsó pontig"
-"Winreason_ArenaPointCaptured"	"%s1 elfoglalta az ellenőrzőpontot"
-"Winreason_RoundScoreLimit"		"%s1 %s2 pontot ért el"
+"Winreason_KOTHPointHeld"		"A %s1 sikeresen védte az ellenőrzőpontját az idő lejártáig"
+"Winreason_PayloadPushed"		"A %s1 csapat eltolta a bombát az utolsó pontig"
+"Winreason_ArenaPointCaptured"	"A %s1 csapat elfoglalta az ellenőrzőpontot"
+"Winreason_RoundScoreLimit"		"A %s1 csapat %s2 pontot ért el"
 "Winreason_VIPEscaped"			"A VIP megszökött"
 "Winreason_VIPKilled"			"A VIP meghalt"
 
@@ -1328,9 +1342,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Az elszenvedett sebzés visszajelzésének hangereje"
 
 "TF_CenterFirePreference"         	"Középről kilövő lövedékek előnyben részesítése"
-"TF_CenterFirePreference_Tip"    	"Ha be van kapcsolva, a lövedékek születési Y koordináta pozíciója 0 lesz a játékosnak; az alkalmazáshoz a játékosnak ehhez a menüben kell lennie, vagy nézőnek kell lennie"
+"TF_CenterFirePreference_Tip"    	"Ha be van kapcsolva, a lövedékek születési Y koordináta pozíciója 0 lesz a játékosnál; az érvényesítéshez a játékosnak lecsatlakozottnak vagy nézőnek kell lennie"
 "TF_BurningDeathAnim"				"„Elégés” halálanimációk bekapcsolása"
-"TF_BurningDeathAnim_Tip"			"Ha be van kapcsolva, a hullák lehet, hogy lejátszák ezeket a különleges halálanimációkat amikor elégnek"
+"TF_BurningDeathAnim_Tip"			"Ha be van kapcsolva, a hullák lehet, hogy lejátszanak egy különleges halálanimációt amikor elégnek"
 "TF_CombatTextBatchingWindow"		"Harci sebzésszöveg-esemény összegyűjtések közötti késleltetés"
 "TF_CombatTextBatchingWindow_Tip"	"Maximum késleltetési idő összegyűjtött sebzésszöveg-események között"
 "TF_CombatTextDropshadow"			"A sebzésszöveg árnyékot vetít ki"
@@ -1575,6 +1589,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "ServerBrowser_OfficialOrVerified" 	"Hivatalos vagy megbízható"
 "ServerBrowser_CustomRules"			"Egyedi szabályok"
 "ServerBrowser_CustomWeapons" 		"Egyedi fegyverek"
+
 
 // ----------------------------------------------------------------
 // RETRANSLATIONS BELOW
