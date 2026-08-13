@@ -96,7 +96,7 @@
 "ClassTips_10_1_Icon"	"chalf_circle"
 "ClassTips_10_2"		"Restez près de vos coéquipiers pour leur donner une résistance aux dégâts et des soins passifs !"
 "ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"Soyez sans défense au combat !"
+"ClassTips_10_3"		"Vous êtes sans défense au combat !"
 "ClassTips_10_3_Icon"	"chalf_circle"
 
 // ----------------------------------------------------------------
@@ -275,7 +275,7 @@
 // Stock
 "Tip_5_7"		"En tant que Medic, gardez en tête que la trajectoire des seringues forme un arc-de-cercle et que celles-ci ont un temps de déplacement. Essayez de prédire le mouvement de l'adversaire afin de ne pas le manquer."
 "Tip_5_8"		"En tant que Medic, utilisez votre Medigun pour soigner vos coéquipiers et dopez-les jusqu'à 150%% de leur santé normale."
-"Tip_5_9"		"En tant que Medic, votre indicateur d'ÜberCharge vous prodigue, ainsi qu'au coéquipier que vous soignez avec votre Medigun, quelques instants d'invulnérabilité."
+"Tip_5_9"		"En tant que Medic, prodiguer une ÜberCharge vous offre à vous, ainsi qu'au coéquipier que vous soignez avec votre Medigun, quelques instants d'invulnérabilité."
 "Tip_5_10"		"En tant que Medic, votre Scie à amputation peut être utilisée dans un dernier recours où vous vous retrouvez séparé de votre patient."
 // Death & Taxes
 "Tip_5_11"		"En tant que Medic, le Kritzkrieg prodigue des coups critiques garantis temporaires à votre patient. Utilisez-le sur les classes puissantes, et dans des zones à forte activité."
@@ -366,7 +366,7 @@
 "Tip_9_6"		"En tant qu'Engineer, votre Pistolet a beaucoup de munitions en réserve. Utilisez-le pour attirer les ennemis vers vous et votre Mitrailleuse, ou essayez une approche plus agressive."
 "Tip_9_7"		"En tant qu'Engineer, vous pouvez désamorcer les Paquets de dynamite ennemis en les frappant avec votre clé."
 "Tip_9_8"		"En tant qu'Engineer, frappez les constructions alliées avec votre clé pour les réparer et les améliorer."
-"Tip_9_9"		"En tant qu'Engineer, utilisez votre PDA de construction pour monter des mitrailleuses, des distributeurs et des téléporteurs."
+"Tip_9_9"		"En tant qu'Engineer, utilisez votre PDA de construction pour monter des mitrailleuses, des distributeurs, des tremplins et des téléporteurs."
 "Tip_9_10"		"En tant qu'Engineer, les mitrailleuses peuvent être utilisées dans un autre but que celui de défendre. Installez-les rapidement dans des recoins cachés pour faciliter les offensives de votre équipe."
 "Tip_9_11"		"En tant qu'Engineer, donnez à la Mitrailleuse un coup de clé pour l'améliorer à l'aide de métal. Chaque niveau augmente l'intégrité et la puissance."
 "Tip_9_12"		"En tant qu'Engineer, montez des Distributeurs pour approvisionner votre équipe en santé et munitions. Ils vous fourniront aussi du métal."
@@ -419,13 +419,13 @@
 "TF_Weapon_Bat_Desc"	"J'en ai des dizaines. Pas peur d'en fracasser une sur toi."
 // Bottle
 "TF_Weapon_Bottle"		"Bouteille"
-"TF_Weapon_Bottle_Desc"	"Non, non, tu es censé la boire !"
+"TF_Weapon_Bottle_Desc"	"Bah non, t'es censé la boire !"
 // Fire Axe
 "TF_Weapon_FireAxe"			"Hache"
 "TF_Weapon_FireAxe_Desc"	"Inculquez-leurs la précieuse leçon de la sécurité incendie."
 // Kukri
 "TF_Weapon_Kukri"		"Kukri"
-"TF_Weapon_Kukri_Desc"	"Découpé par un tireur d'élite. Quelle ironie."
+"TF_Weapon_Kukri_Desc"	"Finir découpé par un tireur d'élite. Quelle ironie."
 // Knife
 "TF_Weapon_Knife"		"Couteau"
 "TF_Weapon_Knife_Desc"	"Pour celui qui aime voir les choses se dénouer."
@@ -440,16 +440,16 @@
 "TF_Weapon_Wrench_Desc"	"Je fais un peu de tout."
 // Bonesaw
 "TF_Weapon_Bonesaw"			"Scie à amputation"
-"TF_Weapon_Bonesaw_Desc"	"Ne t'inquiète pas, ce n'est pas mon sang ! ...Enfin, maintenant que je regarde, je n'en suis plus sûr."
+"TF_Weapon_Bonesaw_Desc"	"Ne t'inquiète pas, ze n'est pas mon sang ! ...Enfin, maintenant que je regarde, je n'en suis pas zi sûr."
 // Shotgun
 "TF_Weapon_Shotgun"					"Fusil à pompe"
-"TF_Weapon_Shotgun_Desc_Engineer"	"Des fois, il faut devoir prendre les choses en main."
-"TF_Weapon_Shotgun_Desc_Soldier"	"Mon fusil n'est pas d'accord avec ton envie de vivre, vermine !"
+"TF_Weapon_Shotgun_Desc_Engineer"	"Des fois, il faut devoir prendre le taureau par les cornes."
+"TF_Weapon_Shotgun_Desc_Soldier"	"Mon fusil n'est pas d'accord avec ta volonté de vivre, vermine !"
 "TF_Weapon_Shotgun_Desc_Heavy"		"Heavy va se contenter de ça."
 "TF_Weapon_Shotgun_Desc_Pyro"		"Laissez parler la poudre."
 // Scattergun
 "TF_Weapon_Scattergun"		"Fusil à dispersion"
-"TF_Weapon_Scattergun_Desc"	"Détends-toi, mon pote, je t'ai tout juste bringuebalé !"
+"TF_Weapon_Scattergun_Desc"	"Détends-toi, mon pote, je t'ai à peine bringuebalé !"
 // Sniper Rifle
 "TF_Weapon_SniperRifle"			"Fusil de sniper"
 "TF_Weapon_SniperRifle_Desc"	"Ça fait l'boulot."
@@ -477,7 +477,7 @@
 // Pistol
 "TF_Weapon_Pistol"					"Pistolet"
 "TF_Weapon_Pistol_Desc_Engineer"	"Commence à danser, p'tit."
-"TF_Weapon_Pistol_Desc_Scout"		"Tout le monde est hors de portée, jusqu'à ce qu'ils ne le soient plus."
+"TF_Weapon_Pistol_Desc_Scout"		"Tout le monde est hors de portée, jusqu'à ce qu'y ne le soient plus."
 // Revolver
 "TF_Weapon_Revolver"		"Revolver"
 "TF_Weapon_Revolver_Desc"	"Lorsque la discrétion n'est plus une option."
@@ -505,7 +505,7 @@
 
 // Kritzkrieg
 "TF_Weapon_Kritzkrieg"		"Kritzkrieg"
-"TF_Weapon_Kritzkrieg_Desc"	"Zest le moment, vas propager la douleur ! Faire tourner la boutique, ja ?"
+"TF_Weapon_Kritzkrieg_Desc"	"Z'est le moment, vas propager la douleur ! Faire tourner la boutique, ja ?"
 // Überspritze
 "TF_Weapon_Uberspritze"			"Überspritze"
 "TF_Weapon_Uberspritze_Desc"	"Oh, cesse de gigoter, z'est pour la bonne cause !"
@@ -514,10 +514,10 @@
 "TF_Weapon_FlareGun_Desc"	"Quelqu'un brûle ! Vite, envoyez un signal de détresse !"
 // Sandvich
 "TF_Weapon_Sandvich"		"Sandvich"
-"TF_Weapon_Sandvich_Desc"	"Approche ! Je vais te faire goûter."
+"TF_Weapon_Sandvich_Desc"	"Approche ! Je vais t'en faire goûter."
 // Huntsman
 "TF_Weapon_Huntsman"		"Huntsman"
-"TF_Weapon_Huntsman_Desc"	"Mais qu'est-ce qui est arrivé à la chevalerie ?"
+"TF_Weapon_Huntsman_Desc"	"Mais qu'est t'il advenue de la chevalerie ?"
 // Gunboats
 "TF_Weapon_Gunboats"				"Bottes de sûreté"
 "TF_Weapon_Gunboats_Desc_Soldier"	"Des semelles en plomb ! Parfaites pour tricher à l'examen physique de l'armée."
@@ -547,7 +547,7 @@
 "TF_Weapon_TranquilizerGun_Desc"	"Faites de beaux rêves, dear."
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"Paquet de dynamite"
-"TF_Weapon_DynamitePack_Desc"	"Faudra recoller tes morceaux au lendemain matin."
+"TF_Weapon_DynamitePack_Desc"	"Faudra recoller tous ça au lendemain matin."
 // Coilgun
 "TF_Weapon_Coilgun"			"Pistolet à induction"
 "TF_Weapon_Coilgun_Desc"	"Pas de steak, mais ça grésille sec."
@@ -616,7 +616,7 @@
 "TF_Weapon_EMPGrenadeLauncher"		"Lance-grenades IEM"
 "TF_Weapon_Grenade"					"Grenade à fragmentation"
 "TF_Weapon_HealGrenadeLauncher"		"Lanceur de grenades salutaires"
-"TF_Weapon_LunchBox"				"Panier déjeuner"
+"TF_Weapon_LunchBox"				"Casse-croûte"
 "TF_Weapon_PDA"						"Assistant numérique personnel"
 "TF_Weapon_ProximityMineLauncher"	"Lanceur de mines terrestres"
 "TF_Weapon_Scythe"					"Faux"
@@ -1016,7 +1016,7 @@ L'équipe BLU peut geler la progression de capture d'un point de contrôle si le
 "vip_setup_goal_defense"	"Tuez le VIP de l'équipe adverse pour l'empếcher d'atteindre la zone d'évacuation."
 
 "TF_VIP_Assigned"				"%s1 est maintenant le VIP !"
-"TF_VIP_Tutorial_Annotation_2"	"Il octroie un bonus défensif à ceux qui l'entourent, et peut aussi\ntemporairement donner un bonus de spécial à un membre de son équipe !"
+"TF_VIP_Tutorial_Annotation_2"	"Il octroie un bonus défensif à ceux qui l'entourent, et peut aussi\ntemporairement offrir un bonus de spécial à un membre de son équipe !"
 "TF_VIP_Tutorial_Annotation_3"	"Mais n'oubliez pas, sa vie est plus importante que la votre, donc ne le laissez pas mourir !"
 
 "Cant_cap_civilian_only"		"Seul le VIP peut\n capturer ce point."
@@ -1048,9 +1048,9 @@ En Mort Subite, tuez le VIP des ennemis pour instantanément gagner la partie !
 "vipr_setup_goal"		"Escortez votre VIP vers les points de contrôle. Empêchez-les de faire de même !"
 "vipr_setup_goal_4team"	"Escortez votre VIP vers les points de contrôle. Empêchez-les de faire de même !"
 
-"vipr_cap_wrong_vip"	"Capturez le point de contrôle ADVERSE, Pignouf !"
+"vipr_cap_wrong_vip"	"Capturez le point de contrôle ADVERSE, pignouf !"
 "vipr_own_civ_death"	"Votre VIP a été élminé ! Protégez-le !"
-"vipr_their_civ_death"	"Beau travail ! Leur VIP a été éliminé !"
+"vipr_their_civ_death"	"Félicitations ! Leur VIP a été éliminé !"
 "vipr_cap_a_reset"		"Le point de contrôle A a été réinitialisé !"
 "vipr_cap_b_reset"		"Le point de contrôle A a été réinitialisé !"
 "vipr_cap_a_reset_vip"	"Vous êtes mort ! Le point de contrôle A a été réinitialisé !"
@@ -1316,7 +1316,7 @@ La possession des points de contrôle est aléatoire au début de chaque round."
 "TF_Spec_Prev"							"Cible de spectateur précédente"
 "TF_Spec_Mode"							"Changer de mode de spectateur"
 "TF_Use"								"Utiliser (intéragir)"
-"TF_Kill"								"Suicide"
+"TF_Kill"								"Crise cardiaque"
 "TF_Explode"							"Imploser"
 
 // Scoreboard Options
@@ -1613,7 +1613,7 @@ La possession des points de contrôle est aléatoire au début de chaque round."
 "TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"Touché-coulé"
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"Tuez un ennemi avec l'onde de choc de l'Ancre d'Amirauté en prenant des dégâts de chute mortels."
-"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"Massacrez et déchirez !"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"Massacrez les jusqu'au dernier !"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"Tuez 10 ennemis avec le Canon scié à bout portant."
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"Coup de tête"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"Décapitez 3 ennemis avec la Moissonneuse en une seule vie."
@@ -1628,7 +1628,7 @@ La possession des points de contrôle est aléatoire au début de chaque round."
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Préparation et récompense"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Tuez un ennemi avec le coup de poing de Tchekhov avec la réserve de coups critiques pleine."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Les pieds dans le mille"
-"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Tuez quelqu'un en atterissant dessus après avoir utilisé un Tremplin."
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Tuez quelqu'un en atterrissant dessus après avoir utilisé un Tremplin."
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Chirurgie à la chaîne"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Prolongez une ÜberCharge du Vivificateur jusqu'à 12 secondes."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Il est mort !"
@@ -1636,7 +1636,7 @@ La possession des points de contrôle est aléatoire au début de chaque round."
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Trous d'air"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Tuez un ennemi avec un tir en pleine tête pendant qu'il est dans les airs."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Chassez-moi ce britannique !"
-"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Exposez un Spy invisible utilisant la Fuite à l'Anglaise en lui infligant des dégâts."
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Exposez un Spy invisible utilisant la Fuite à l'Anglaise en lui infligeant des dégâts."
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"L'entrepreneur"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Gagnez une manche de VIP en tant que Civilian sans mourir une seule fois."
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Sur la bonne voie"
@@ -1702,7 +1702,7 @@ La possession des points de contrôle est aléatoire au début de chaque round."
 "ServerBrowser_CustomWeapons"		"Armes personnalisées"
 
 // ----------------------------------------------------------------
-// Live TF2 String fixes
+// Live TF2 String fixes - Do not remove
 // ----------------------------------------------------------------
 
 // DO NOT CHANGE NOR REMOVE THOSES STRINGS, THANK YOU.
